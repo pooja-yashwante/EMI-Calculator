@@ -1,0 +1,36 @@
+.App {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.ETableCellText {
+  background-color: rgb(115, 204, 115);
+  color: rgb(202, 190, 190);
+  font-size: 18px;
+}
+
+.ETableCellVal {
+  text-align: right;
+  font-size: 18px;
+}
+
+.CalApp {
+  width: 50%;
+  border: 2px #b8b2b2 solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background-color: rgb(199, 198, 196);
+}
+
+.CalHeading {
+  text-align: center;
+  color: rgb(52, 46, 226);
+}
+
+@media (prefers-reduced-motion:no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
